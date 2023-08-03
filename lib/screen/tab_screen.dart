@@ -1,7 +1,7 @@
-import 'package:book_store/screen/carttab.screen/cart.dart';
-import 'package:book_store/screen/categorytab.screen/categories.dart';
-import 'package:book_store/screen/hometab.screen/hometab.dart';
-import 'package:book_store/screen/profiletab.screen/profile.dart';
+import 'package:book_store/screen/tab.screen/carttab.screen/cart.dart';
+import 'package:book_store/screen/tab.screen/categorytab.screen/categories.dart';
+import 'package:book_store/screen/tab.screen/hometab.screen/hometab.dart';
+import 'package:book_store/screen/tab.screen/profiletab.screen/profile.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:remixicon/remixicon.dart';
@@ -9,7 +9,7 @@ import 'package:remixicon/remixicon.dart';
 class TabScreen extends StatelessWidget {
   TabScreen({super.key});
   final List<Widget> _pages = [
-    const HomeScreen(),
+    const HomeTab(),
     const CategoriesScreen(),
     const CartScreen(),
     const ProfileScreen(),
