@@ -7,7 +7,11 @@ class HomeTab extends StatelessWidget {
   Widget build(BuildContext context) {
     return const Scaffold(
         body: SafeArea(
-      child: Row(),
+      child: Row(
+        children: [
+          Text('data'),
+        ],
+      ),
     ));
   }
 }
