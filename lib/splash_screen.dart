@@ -1,5 +1,5 @@
 import 'package:animated_text_kit/animated_text_kit.dart';
-import 'package:book_store/screen/tab_screen.dart';
+import 'package:book_store/screen/auth.screen/login.screen/login.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_spinkit/flutter_spinkit.dart';
 
@@ -25,7 +25,7 @@ class _SplashScreenState extends State<SplashScreen> {
     Navigator.pushReplacement(
       context,
       MaterialPageRoute(
-        builder: (_) => TabScreen(),
+        builder: (_) => LogInScreen(),
       ),
     );
   }

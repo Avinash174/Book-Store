@@ -1,6 +1,9 @@
 import 'package:book_store/screen/tab_screen.dart';
+import 'package:book_store/splash_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
+
+late Size mq;
 
 void main() {
   runApp(const MyApp());
@@ -26,7 +29,7 @@ class MyApp extends StatelessWidget {
 
           primarySwatch: Colors.blue,
         ),
-        home: TabScreen(),
+        home: SplashScreen(),
       ),
     );
   }

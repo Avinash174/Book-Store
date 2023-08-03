@@ -1,3 +1,4 @@
+import 'package:book_store/utils/utils.dart';
 import 'package:flutter/material.dart';
 
 class HomeTab extends StatelessWidget {
@@ -5,12 +6,11 @@ class HomeTab extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const Scaffold(
+    final dimension = Utils.getDimensions(context, true);
+    return Scaffold(
         body: SafeArea(
       child: Row(
-        children: [
-          Text('data'),
-        ],
+        children: [],
       ),
     ));
   }
